@@ -1,0 +1,119 @@
+.work {
+    margin-top: 360px;
+
+    & .work__heading {
+        color: #83888F;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 80px;
+    }
+    & .work__line {
+        display: flex;
+        align-items: center;
+        width: 760px;
+        height: 2px;
+        background-color: #FDD6BA;
+        margin-bottom: 82px;
+        position: relative;
+        margin-left: 30px;
+    }
+    
+    & .work__span {
+        width: 31px;
+        height: 31px;
+        border: 2px solid  #0E8784;
+        border-radius: 50%;
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        /* margin-top: -17px; */
+        margin-left: -27px;
+    }
+    
+    
+    & .work__span:nth-child(2) {
+        margin-left: 349px;
+    }
+    
+    & .work__span:nth-child(3) {
+        margin-left: 755px;
+    }
+    
+    & .work__number--flex {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        margin-left: -95px;
+        padding-bottom: 64px;
+    }
+    
+    & .work__number {
+        margin-left: 95px;
+    }
+    
+    & .work__number:nth-child(3) {
+        padding-left: 25px;
+    }
+    
+    & .work__number1 {
+        color: #FDD6BA;
+        font-family: "Fraunces";
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 72px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    & .work__title {
+        width: 255px;
+        color: #333D4B;
+        font-family: "Fraunces";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 36px;
+    }
+    
+    & .work__text {
+        width: 285px;
+        color: #333D4B;
+        font-family: "Barlow";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+    
+    & .work__link {
+        color: #FEFCF7;
+        background: var(--color--darkcyan);
+        border-radius: 6px;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        margin: 0;
+        padding: 0;
+        padding: 15px 31px;
+        margin-bottom: 200px;
+
+        &:hover {
+            background: #fff;
+            color: var(--color--darkcyan);
+            border: 3px solid darkcyan;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+
